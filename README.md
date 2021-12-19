@@ -1,4 +1,4 @@
-# homebridge-http-json
+# homebridge-stokercloud-json
 
 Simple HTTP JSON StokerCloud client for [Homebridge HomeKit](https://github.com/nfarina/homebridge).
 
