@@ -1,20 +1,21 @@
 {
 	"accessory": "http-json",
-	"service": "Thermostat",
-	"name": "ESP Sala",
-	"url": "http://192.168.1.85/readings",
+	"service": "StokerCloud",
+	"name": "StokerCloud",
+	"url": "http://stokercloud.dk/dev/getjsondriftdata.php?mac=givskov",
 	"sensors" : [
 		{
-			"name": "Temperature",
-			"service": "TemperatureSensor",
-			"caractheristic": "CurrentTemperature",
-			"field": "temperature"
-		},
-		{
-			"name": "Humidity",
-			"service": "HumiditySensor",
-			"caractheristic": "CurrentRelativeHumidity",
-			"field": "humidity"
+			"501":"Fremløb",
+			"502":"% Ydelse",
+			"503":"Skakt",
+			"504":"kW Ydelse",
+			"506":"Lx Lys",
+			"507":"Status ",
+			"508":"Dato Tid",
+			"521":"Retur",
+			"530":"kg Idag",
+			"531":"0.068 kg/m2 Idag",
+			"alarm":"Alarm"
 		}
 	]
 }
