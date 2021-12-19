@@ -1,11 +1,11 @@
 {
   "_args": [
     [
-      "homebridge-http-json",
+      "homebridge-stokercloud-json",
       ""
     ],
     [
-      "homebridge-http-json",
+      "homebridge-stokercloud-json",
       ""
     ]
   ],
